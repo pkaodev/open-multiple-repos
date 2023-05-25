@@ -8,8 +8,8 @@ const repo = 'fun-katas'
 
 // 2. copy Github column from google sheets into string
 let githubs = `
-https://github.com/Person1
-https://github.com/Person2
+// https://github.com/Person1
+// https://github.com/Person2
 `
 
 // 3. run file
