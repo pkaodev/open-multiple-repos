@@ -30,7 +30,7 @@ export function OpenMultipleRepos() {
     return (
         <div>
             <textarea
-                placeholder="Github names (one name per line)"
+                placeholder="Github urls/names (one per line)"
                 name="githubs"
                 value={formData.githubs}
                 onChange={handleInputChange}
