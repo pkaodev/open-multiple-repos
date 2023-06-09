@@ -8,11 +8,14 @@ export function OpenMultipleRepos() {
     })
 
     const handleInputChange = (e) => {
+        const { name, value, type, checked } = e.target;
+        const newValue = type === "checkbox" ? checked : value;
+    
         setFormData((prevData) => ({
             ...prevData,
-            [e.target.name]: e.target.value
-        }))
-    }
+            [name]: newValue
+        }));
+    };
 
     const handleClick = () => {
         formData.githubs.trim().split('\n').forEach((github, index) => {
