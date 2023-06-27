@@ -6,13 +6,19 @@ const devLayout = false
 // 1. set repo to open
 const repo = 'fun-katas'
 
-// 2. copy Github column from google sheets into string
-let githubs = `
-// https://github.com/Person1
-// https://github.com/Person2
+/**2. copy Github column from google sheets into string
+example:
+const githubs = `
+https://github.com/Person1
+https://github.com/Person2
+`
+*/
+
+const githubs = `
+
 `
 
-// 3. run file
+// 3. run this file
 githubs.trim().split('\n').forEach(github => {
     try {
         const user = github.split('.com/')[1]
