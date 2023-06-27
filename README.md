@@ -33,7 +33,7 @@ alias stopopenrepos='source ~/<strong>&lt;CHANGE THIS 1&gt;</strong>/open-multip
 2. follow comment instructions in **CLI.js**.
 3. `node CLI.js`
 
-## To do
+# To do
 - Automate the process of installation, modifying scripts, and adding aliases.
 - Add support for windows.
 - Make `stopopenrepos` work from any directory.
